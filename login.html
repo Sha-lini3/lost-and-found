@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Lost & Found Portal</title>
+
+    <link rel="stylesheet" href="login.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="left-panel">
+
+        <h1>Lost & Found Portal</h1>
+
+        <p>
+            Welcome back! Login to report lost items,
+            search found belongings and track your requests.
+        </p>
+
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800" alt="Login">
+
+    </div>
+
+    <div class="right-panel">
+
+        <div class="login-box">
+
+            <h2>Welcome Back 👋</h2>
+
+            <p>Please login to continue</p>
+
+            <form action="/submit-login" method="POST">
+
+                <div class="input-box">
+
+                    <i class="fa-solid fa-user"></i>
+
+                   <input type="text" id="username" name="username" placeholder="Username" required>
+                </div>
+
+                <div class="input-box">
+
+                    <i class="fa-solid fa-lock"></i>
+
+                   <input type="password" id="password" name="password" placeholder="Password" required>
+
+                </div>
+
+                <div class="remember">
+
+                    <label>
+
+                        <input type="checkbox">
+
+                        Remember Me
+
+                    </label>
+
+                    <a href="#">Forgot Password?</a>
+
+                </div>
+
+                <button type="submit">
+
+                    Login
+
+                </button>
+
+            </form>
+
+            <div class="divider">
+
+                OR
+
+            </div>
+
+            <button class="google-btn">
+
+                <i class="fa-brands fa-google"></i>
+
+                Login with Google
+
+            </button>
+
+            <div class="signup">
+
+                Don't have an account?
+
+                <a href="signUp.html">
+
+                    Sign Up
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="login.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,359 @@
+/* =========================
+   GLOBAL
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:linear-gradient(135deg,#0f172a,#1e3a8a);
+
+    padding:30px;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+
+.container{
+
+    width:1100px;
+
+    max-width:100%;
+
+    background:rgba(255,255,255,.08);
+
+    backdrop-filter:blur(20px);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    display:flex;
+
+    box-shadow:0 20px 50px rgba(0,0,0,.35);
+
+}
+
+/* =========================
+   LEFT PANEL
+========================= */
+
+.left-panel{
+
+    flex:1;
+
+    background:linear-gradient(135deg,#2563eb,#38bdf8);
+
+    color:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:50px;
+}
+
+.left-panel h1{
+
+    font-size:42px;
+
+    margin-bottom:20px;
+}
+
+.left-panel p{
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    margin-bottom:35px;
+}
+
+.left-panel img{
+
+    width:100%;
+
+    max-width:350px;
+
+    border-radius:15px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.3);
+}
+
+/* =========================
+   RIGHT PANEL
+========================= */
+
+.right-panel{
+
+    flex:1;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#111827;
+}
+
+.login-box{
+
+    width:380px;
+
+    max-width:90%;
+}
+
+.login-box h2{
+
+    color:white;
+
+    font-size:34px;
+
+    margin-bottom:10px;
+}
+
+.login-box p{
+
+    color:#94a3b8;
+
+    margin-bottom:35px;
+}
+
+/* =========================
+   INPUT
+========================= */
+
+.input-box{
+
+    display:flex;
+
+    align-items:center;
+
+    background:#1e293b;
+
+    border-radius:12px;
+
+    margin-bottom:20px;
+
+    padding:15px;
+}
+
+.input-box i{
+
+    color:#38bdf8;
+
+    margin-right:12px;
+
+    font-size:18px;
+}
+
+.input-box input{
+
+    width:100%;
+
+    background:none;
+
+    border:none;
+
+    outline:none;
+
+    color:white;
+
+    font-size:16px;
+}
+
+.input-box input::placeholder{
+
+    color:#94a3b8;
+}
+
+/* =========================
+   REMEMBER
+========================= */
+
+.remember{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+    color:#cbd5e1;
+
+    font-size:14px;
+}
+
+.remember a{
+
+    color:#38bdf8;
+
+    text-decoration:none;
+}
+
+.remember a:hover{
+
+    text-decoration:underline;
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+button{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+button[type="submit"]{
+
+    background:#2563eb;
+
+    color:white;
+}
+
+button[type="submit"]:hover{
+
+    background:#1d4ed8;
+
+    transform:translateY(-3px);
+}
+
+/* =========================
+   DIVIDER
+========================= */
+
+.divider{
+
+    text-align:center;
+
+    color:#94a3b8;
+
+    margin:25px 0;
+}
+
+/* =========================
+   GOOGLE BUTTON
+========================= */
+
+.google-btn{
+
+    background:white;
+
+    color:#111827;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+}
+
+.google-btn:hover{
+
+    background:#e2e8f0;
+}
+
+/* =========================
+   SIGNUP
+========================= */
+
+.signup{
+
+    text-align:center;
+
+    margin-top:25px;
+
+    color:#cbd5e1;
+}
+
+.signup a{
+
+    color:#38bdf8;
+
+    text-decoration:none;
+
+    font-weight:600;
+}
+
+.signup a:hover{
+
+    text-decoration:underline;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media(max-width:900px){
+
+.container{
+
+    flex-direction:column;
+}
+
+.left-panel{
+
+    padding:40px 25px;
+}
+
+.left-panel h1{
+
+    font-size:34px;
+}
+
+.left-panel img{
+
+    max-width:250px;
+}
+
+.right-panel{
+
+    padding:40px 0;
+}
+
+.login-box{
+
+    width:90%;
+}
+
+}
