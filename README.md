@@ -39,7 +39,7 @@ LostandFound/
 │
 ├── css/
 │   ├── About.css
-│   ├── Firstpage.css
+│   ├── index.css
 │   ├── Home.css
 │   ├── admin.css
 │   ├── contact.css
@@ -49,7 +49,7 @@ LostandFound/
 │   └── style0.css
 │
 ├── js/
-│   ├── Firstpage.js
+│   ├── index.js
 │   ├── admin.js
 │   ├── contact.js
 │   ├── feedback.js
@@ -70,7 +70,7 @@ LostandFound/
 │   ├── mic.html
 │   └── signUp.html
 │
-└── Firstpage.html
+└── index.html
 ```
 
 ---
